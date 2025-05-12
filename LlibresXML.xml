@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Llibres xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+    Llibres de la biblioteca
+    <Llibre publicat_el="1840">
+        <Titol>El Capote</Titol>
+        <Autor>Nikolai Gogol</Autor>
+    </Llibre>
+    <Llibre publicat_el="2008">
+        <Titol>El Sanador de Caballos</Titol>
+        <Autor>Gonzalo Giner</Autor>
+    </Llibre>
+    <Llibre publicat_el="1981">
+        <Titol>El Nombre de la Rosa</Titol>
+        <Autor>Umberto Eco</Autor>
+    </Llibre>
+</Llibres>
