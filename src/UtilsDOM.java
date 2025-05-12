@@ -121,7 +121,7 @@ public class UtilsDOM {
         // Ordenar alfabèticament la llista de títols
         Collections.sort(titols);
 
-        // Retornar la llista ordenadaggg
+        // Retornar la llista ordenadaggghhh
         return titols;
     }
 }
