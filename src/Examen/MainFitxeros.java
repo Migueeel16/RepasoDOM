@@ -17,10 +17,13 @@ public class MainFitxeros {
         File directoriPare = carpeta.getParentFile();
         File subdirectoriFiltrats = new File(directoriPare, "filtrats_copia");
 
-
-        if (!subdirectoriFiltrats.exists()) {
-            subdirectoriFiltrats.mkdir();
+        // Si el subdirectorio ya existe, lo borramos y lo recreamos
+        if (subdirectoriFiltrats.exists()) {
+            borrarDirectori(subdirectoriFiltrats);
         }
+
+        // Crear la carpeta 'filtrats_copia' nuevamente
+        subdirectoriFiltrats.mkdir();
 
         long ara = System.currentTimeMillis();
         long fa7dies = ara - (7L * 24 * 60 * 60 * 1000);
@@ -66,5 +69,19 @@ public class MainFitxeros {
             System.out.println("Error al copiar el archivo: " + fitxer.getName());
             e.printStackTrace();
         }
+    }
+
+    // Función para borrar el subdirectorio y su contenido
+    public static void borrarDirectori(File directori) {
+        File[] arxius = directori.listFiles();
+        if (arxius != null) {
+            for (File f : arxius) {
+                if (f.isDirectory()) {
+                    borrarDirectori(f);  // Llamada recursiva para eliminar subdirectorios
+                }
+                f.delete();  // Borrar el archivo o subdirectorio
+            }
+        }
+        directori.delete();  // Finalmente, borrar el directorio vacío
     }
 }
