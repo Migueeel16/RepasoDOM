@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<pizzes>
+  <pizza nom="Margarida" preu="6">
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa de tomàquet</ingredient>
+  </pizza>
+  <pizza nom="Veggie Lovers" preu="11">
+    <ingredient>ceba vermella</ingredient>
+    <ingredient>blat de moro</ingredient>
+    <ingredient>pebrot</ingredient>
+    <ingredient>xampinyons</ingredient>
+    <ingredient>tomàquet</ingredient>
+    <ingredient>mozzarella</ingredient>
+  </pizza>
+  <pizza nom="Americana" preu="12">
+    <ingredient>pepperoni</ingredient>
+    <ingredient>bacon</ingredient>
+    <ingredient>ceba vermella</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa de tomàquet</ingredient>
+  </pizza>
+  <pizza nom="Cheese Lovers" preu="10">
+    <ingredient>mozzarella</ingredient>
+    <ingredient>formatge blau</ingredient>
+    <ingredient>cheddar</ingredient>
+    <ingredient>emmental</ingredient>
+    <ingredient>salsa de tomàquet</ingredient>
+  </pizza>
+  <pizza nom="Pollastre a la graella" preu="12">
+    <ingredient>doble de pollastre a la graella</ingredient>
+    <ingredient>xampinyons</ingredient>
+    <ingredient>blat de moro</ingredient>
+    <ingredient>tomàquet</ingredient>
+    <ingredient>mozzarella</ingredient>
+  </pizza>
+  <pizza nom="Barbacoa" preu="12">
+    <ingredient>carn</ingredient>
+    <ingredient>ceba vermella</ingredient>
+    <ingredient>bacon</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa barbacoa</ingredient>
+  </pizza>
+  <pizza nom="Pepperoni Lovers" preu="10">
+    <ingredient>doble de pepperoni</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa de tomàquet</ingredient>
+  </pizza>
+  <pizza nom="Supreme" preu="12">
+    <ingredient>carn</ingredient>
+    <ingredient>pepperoni</ingredient>
+    <ingredient>ceba vermella</ingredient>
+    <ingredient>pebrot</ingredient>
+    <ingredient>xampinyons</ingredient>
+    <ingredient>mozzarella</ingredient>
+  </pizza>
+  <pizza nom="Carbonara" preu="10">
+    <ingredient>pernil dolç</ingredient>
+    <ingredient>xampinyons</ingredient>
+    <ingredient>ceba vermella</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa carbonara</ingredient>
+  </pizza>
+  <pizza nom="Hawaiana" preu="11">
+    <ingredient>pinya</ingredient>
+    <ingredient>doble de pernil dolç</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa de tomàquet</ingredient>
+  </pizza>
+  <pizza nom="Kebab" preu="10">
+    <ingredient>pollastre kebab</ingredient>
+    <ingredient>ceba vermella</ingredient>
+    <ingredient>tomàquet natural</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa especial</ingredient>
+    <ingredient>salsa de tomàquet</ingredient>
+  </pizza>
+  <pizza nom="Marinera" preu="12">
+    <ingredient>tonyina</ingredient>
+    <ingredient>anxoves</ingredient>
+    <ingredient>olives negres</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa de tomàquet</ingredient>
+  </pizza>
+  <pizza nom="Meat lovers" preu="13">
+    <ingredient>carn</ingredient>
+    <ingredient>bacon</ingredient>
+    <ingredient>pepperoni</ingredient>
+    <ingredient>pernil dolç</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa de tomàquet</ingredient>
+  </pizza>
+  <pizza nom="Formatge de cabra" preu="11">
+    <ingredient>formatge de cabra al forn</ingredient>
+    <ingredient>ceba caramel·litzada</ingredient>
+    <ingredient>mozzarella</ingredient>
+    <ingredient>salsa cremosa</ingredient>
+  </pizza>
+</pizzes>
