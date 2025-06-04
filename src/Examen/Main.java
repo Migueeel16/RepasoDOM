@@ -28,10 +28,5 @@ public class Main {
             System.out.println("No s'ha pogut carregar el fitxer XML.");
         }
 
-        //Fitxers NIO.2
-
-        Path ruta = Paths.get("entrada");
-        UtilsFitxers UtilsFitxers = new UtilsFitxers();
-        UtilsFitxers.filtrarICopiarFitxers(ruta);
     }
 }
