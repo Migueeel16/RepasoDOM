@@ -1,0 +1,3 @@
+Contingut del fitxer hola1.txt
+Més contingut del fitxer hola1.txt
+Més i més contingut del fitxer hola1.txt
