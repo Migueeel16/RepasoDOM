@@ -23,8 +23,11 @@ public class Main {
             stream.forEach(source -> {
                 if (Files.isDirectory(source)) {
                     numDirectoris++;
+                    System.out.println("Se ha sumado el directori: " + source.getFileName());
+
                 } else if (Files.isRegularFile(source)) {
                     numFitxers++;
+                    System.out.println("Se ha sumado el fichero: " + source.getFileName());
                 }
             });
         } catch (IOException e) {

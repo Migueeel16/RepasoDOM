@@ -8,13 +8,13 @@ import java.util.stream.Stream;
 
 public class Main2 {
     public static void main(String[] args) {
-        Path origen= Paths.get("C:\\Users\\llere\\IdeaProjects\\M6REPASO\\EXAMENRECUM6\\exemple");
+        Path origen= Paths.get("C:\\Users\\usuario\\IdeaProjects\\RepasoDOM\\exemple");
         llegirFitxersCopiar(origen);
     }
 
     public static void llegirFitxersCopiar(Path origen){
         try (Stream<Path> stream = Files.walk(origen)) {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("tot.txt",true));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("ex2examenRecu.txt",true));
             stream.forEach(source -> {
                 if (Files.isDirectory(source)) {
 
